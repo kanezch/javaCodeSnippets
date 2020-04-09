@@ -15,17 +15,13 @@ public class SSLSocketGreetServer {
     public static void main(String[] args) throws Exception{
 
         // set up key manager to do server authentication
-        SSLContext ctx;
-        KeyManagerFactory kmf;
-        KeyStore ks;
         char[] passphrase = "passphrase".toCharArray();
-
-        ctx = SSLContext.getInstance("TLS");
-        kmf = KeyManagerFactory.getInstance("SunX509");
-        ks = KeyStore.getInstance("JKS");
-
+        KeyManagerFactory kmf = KeyManagerFactory.getInstance("SunX509");
+        KeyStore ks = KeyStore.getInstance("JKS");
         ks.load(new FileInputStream("/Users/kane/WorkDir/oraclejssesamples/sockets/server/testkeys"), passphrase);
         kmf.init(ks, passphrase);
+
+        SSLContext ctx = SSLContext.getInstance("SSL");
         ctx.init(kmf.getKeyManagers(), null, null);
 
         ServerSocketFactory ssf = ctx.getServerSocketFactory();
