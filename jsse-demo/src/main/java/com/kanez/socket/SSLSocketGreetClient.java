@@ -1,4 +1,4 @@
-package com.kanez;
+package com.kanez.socket;
 import javax.net.ssl.*;
 import java.io.*;
 import java.security.cert.X509Certificate;

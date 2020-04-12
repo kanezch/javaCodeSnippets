@@ -1,4 +1,4 @@
-package com.kanez;
+package com.kanez.socket;
 
 import java.net.*;
 import java.io.*;

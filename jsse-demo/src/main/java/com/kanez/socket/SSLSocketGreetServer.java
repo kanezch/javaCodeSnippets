@@ -1,4 +1,4 @@
-package com.kanez;
+package com.kanez.socket;
 
 import javax.net.ServerSocketFactory;
 import javax.net.ssl.KeyManagerFactory;
