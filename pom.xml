@@ -18,5 +18,6 @@
 
     <modules>
         <module>jsse-demo</module>
+        <module>thread-demo</module>
     </modules>
 </project>
