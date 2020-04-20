@@ -19,5 +19,7 @@
     <modules>
         <module>jsse-demo</module>
         <module>thread-demo</module>
+        <module>stream-demo</module>
+        <module>redis-demo</module>
     </modules>
 </project>
