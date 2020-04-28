@@ -15,7 +15,7 @@
     <bytecodeTargetLevel>
       <module name="javaCodeSnippets" target="1.5" />
       <module name="JsseDemo" target="8" />
-      <module name="redis-demo" target="1.5" />
+      <module name="redis-demo" target="8" />
       <module name="stream-demo" target="1.5" />
       <module name="thread-demo" target="8" />
     </bytecodeTargetLevel>
