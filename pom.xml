@@ -21,5 +21,6 @@
         <module>thread-demo</module>
         <module>stream-demo</module>
         <module>redis-demo</module>
+        <module>collection-demo</module>
     </modules>
 </project>

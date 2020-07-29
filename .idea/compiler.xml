@@ -2,21 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JsseDemo" />
+        <module name="collection-demo" />
         <module name="redis-demo" />
+        <module name="JsseDemo" />
         <module name="stream-demo" />
         <module name="thread-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="collection-demo" target="8" />
       <module name="javaCodeSnippets" target="1.5" />
       <module name="JsseDemo" target="8" />
       <module name="redis-demo" target="8" />
-      <module name="stream-demo" target="1.5" />
+      <module name="stream-demo" target="8" />
       <module name="thread-demo" target="8" />
     </bytecodeTargetLevel>
   </component>
